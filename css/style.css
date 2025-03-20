@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.first_part{
+    display: flex;
+    margin-top: 300px;
+    gap: 100px;
+    a{
+        padding: 25px 50px 25px 50px;
+        background-color: aquamarine;
+        text-decoration: none;
+        color: black;
+        border-radius: 100px;
+    }
+}
+
+.second_part{
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+    a{
+        padding: 25px 50px 25px 50px;
+        background-color: cadetblue;
+        text-decoration: none;
+        color: black;
+        border-radius: 100px;
+    }
+}
